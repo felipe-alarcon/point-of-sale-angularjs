@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="App">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="container">
+      <div id="left_div">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">SimplePOS</a>
+            </div>
+            <div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">new category</a></li>
+                <li><a href="#">new product</a></li> 
+                <li><a href="#">stock</a></li> 
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Latte</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Capuccino</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Mocha</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Americano</button></div>
+       </div>
+       <div class="row">
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Latte</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Capuccino</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Mocha</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Americano</button></div>
+       </div>
+       <div class="row">
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Latte</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Capuccino</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Mocha</button></div>
+          <div class="col-sm-3"><button type="button" class="btn btn-success btn-block">Americano</button></div>
+       </div>
+     </div>
+    
+      <div id="right_div">
+        <div class="alert alert-info">
+          <p>Transaction id: <span class="badge">1</span></p>
+        </div>
+        
+        <h2 class="text-left">Late £2.90</h2>
+        <div id="inner_bottom_div">
+          <button type="button" class="btn btn-primary btn-block">TRANSACTIONS</button>
+          <button type="button" class="btn btn-info btn-block">CARDS</button>
+          <button type="button" class="btn btn-danger btn-block">DELETE</button>
+          <button type="button" class="btn btn-success btn-block">CASH</button>
+        </div>
+      </div>
+    </div>
+    
+ 
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
