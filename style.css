@@ -44,3 +44,6 @@
   background-color:#EEE;
   border-top: 2px solid black;
 }
+.dropdown-menu{
+  width: 100%;
+}
